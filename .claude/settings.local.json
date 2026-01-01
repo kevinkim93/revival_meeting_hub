@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(findstr:*)",
+      "Bash(set:*)",
+      "Bash(if exist .env type .env)",
+      "Bash(where node)",
+      "Bash(del trace-repeat.js)",
+      "Bash(rm:*)",
+      "Bash(npm install:*)"
+    ]
+  }
+}

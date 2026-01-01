@@ -1,0 +1,71 @@
+Trace: String.repeat negative -28 value: [31m[1m^[22m[39m
+    at console.trace (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\node-environment-extensions\console-file.js:21:44)
+    at C:\workspace\revival_meeting_hub\node_modules\next\dist\server\node-environment-extensions\console-exit.js:22:95
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:59:14)
+    at AsyncLocalStorage.exit (node:internal/async_local_storage/async_context_frame:70:17)
+    at console.trace (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\node-environment-extensions\console-exit.js:22:71)
+    at console.trace (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\node-environment-extensions\console-dim.external.js:208:47)
+    at String.repeat (C:\workspace\revival_meeting_hub\trace-repeat.js:4:13)
+    at C:\workspace\revival_meeting_hub\node_modules\next\dist\compiled\babel-code-frame\index.js:1:5309
+    at Array.map (<anonymous>)
+    at codeFrameColumns (C:\workspace\revival_meeting_hub\node_modules\next\dist\compiled\babel-code-frame\index.js:1:5037)
+    at formatIssue (C:\workspace\revival_meeting_hub\node_modules\next\dist\shared\lib\turbopack\utils.js:129:20)
+    at processIssues (C:\workspace\revival_meeting_hub\node_modules\next\dist\shared\lib\turbopack\utils.js:85:35)
+    at handleRouteType (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\dev\turbopack-utils.js:309:42)
+    at async C:\workspace\revival_meeting_hub\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1124:21
+    at async Span.traceAsyncFn (C:\workspace\revival_meeting_hub\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevBundlerService.ensurePage (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\lib\dev-bundler-service.js:20:20)
+    at async DevServer.ensurePage (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\dev\next-dev-server.js:671:9)
+    at async Object.ensure (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\dev\next-dev-server.js:174:17)
+    at async DevRouteMatcherManager.matchAll (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\route-matcher-managers\dev-route-matcher-manager.js:90:13)
+    at async DevRouteMatcherManager.match (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\route-matcher-managers\default-route-matcher-manager.js:163:26)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\next-server.js:340:31)
+    at async DevServer.handleRequestImpl (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\base-server.js:909:17)
+    at async C:\workspace\revival_meeting_hub\node_modules\next\dist\server\dev\next-dev-server.js:387:20
+    at async Span.traceAsyncFn (C:\workspace\revival_meeting_hub\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\dev\next-dev-server.js:383:24)
+    at async invokeRender (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\lib\router-server.js:248:21)
+    at async handleRequest (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\lib\router-server.js:447:24)
+    at async requestHandlerImpl (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\lib\router-server.js:496:13)
+    at async Server.requestListener (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\lib\start-server.js:226:13)
+⨯ RangeError: Invalid count value: -28
+    at String.repeat (<anonymous>)
+    at String.repeat (C:\workspace\revival_meeting_hub\trace-repeat.js:6:21)
+Trace: String.repeat negative -28 value: [31m[1m^[22m[39m
+    at console.trace (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\node-environment-extensions\console-file.js:21:44)
+    at C:\workspace\revival_meeting_hub\node_modules\next\dist\server\node-environment-extensions\console-exit.js:22:95
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:59:14)
+    at AsyncLocalStorage.exit (node:internal/async_local_storage/async_context_frame:70:17)
+    at console.trace (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\node-environment-extensions\console-exit.js:22:71)
+    at console.trace (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\node-environment-extensions\console-dim.external.js:208:47)
+    at String.repeat (C:\workspace\revival_meeting_hub\trace-repeat.js:4:13)
+    at C:\workspace\revival_meeting_hub\node_modules\next\dist\compiled\babel-code-frame\index.js:1:5309
+    at Array.map (<anonymous>)
+    at codeFrameColumns (C:\workspace\revival_meeting_hub\node_modules\next\dist\compiled\babel-code-frame\index.js:1:5037)
+    at formatIssue (C:\workspace\revival_meeting_hub\node_modules\next\dist\shared\lib\turbopack\utils.js:129:20)
+    at Object.getCompilationErrors (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1007:65)
+    at DevBundlerService.getCompilationError (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\dev\next-dev-server.js:706:42)
+    at DevServer.findPageComponents (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\dev\next-dev-server.js:676:43)
+    at async DevServer.renderErrorToResponseImpl (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\base-server.js:1713:26)
+⨯ RangeError: Invalid count value: -28
+    at String.repeat (<anonymous>)
+    at String.repeat (C:\workspace\revival_meeting_hub\trace-repeat.js:6:21)
+Trace: String.repeat negative -28 value: [31m[1m^[22m[39m
+    at console.trace (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\node-environment-extensions\console-file.js:21:44)
+    at C:\workspace\revival_meeting_hub\node_modules\next\dist\server\node-environment-extensions\console-exit.js:22:95
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:59:14)
+    at AsyncLocalStorage.exit (node:internal/async_local_storage/async_context_frame:70:17)
+    at console.trace (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\node-environment-extensions\console-exit.js:22:71)
+    at console.trace (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\node-environment-extensions\console-dim.external.js:208:47)
+    at String.repeat (C:\workspace\revival_meeting_hub\trace-repeat.js:4:13)
+    at C:\workspace\revival_meeting_hub\node_modules\next\dist\compiled\babel-code-frame\index.js:1:5309
+    at Array.map (<anonymous>)
+    at codeFrameColumns (C:\workspace\revival_meeting_hub\node_modules\next\dist\compiled\babel-code-frame\index.js:1:5037)
+    at formatIssue (C:\workspace\revival_meeting_hub\node_modules\next\dist\shared\lib\turbopack\utils.js:129:20)
+    at addToErrorsMap (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1194:73)
+    at addErrors (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1203:33)
+    at handleProjectUpdates (C:\workspace\revival_meeting_hub\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1208:25)
+RangeError: Invalid count value: -28
+    at String.repeat (<anonymous>)
+    at String.repeat (C:\workspace\revival_meeting_hub\trace-repeat.js:6:21)
